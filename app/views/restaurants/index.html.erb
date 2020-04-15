@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Restaurant List</title>
+</head>
+<body>
+
+<ul>
+  <% @restaurants.each do |restaurant| %>
+    <li><%= restaurant.name %></li>
+    <p><=%restaurant.review%></p>
+  <% end %>
+</ul>
+
+</body>
+</html>
